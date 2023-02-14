@@ -1,0 +1,133 @@
+[
+  {
+    "SuitePath": "D:\\projects\\mine\\optional\\src",
+    "SuiteDescription": "Src Suite",
+    "SuiteLabels": [],
+    "SuiteSucceeded": true,
+    "SuiteHasProgrammaticFocus": false,
+    "SpecialSuiteFailureReasons": null,
+    "PreRunStats": {
+      "TotalSpecs": 1,
+      "SpecsThatWillRun": 1
+    },
+    "StartTime": "2023-02-11T01:25:12.2365268Z",
+    "EndTime": "2023-02-11T01:25:12.2608344Z",
+    "RunTime": 24307600,
+    "SuiteConfig": {
+      "RandomSeed": 1676078708,
+      "RandomizeAllSpecs": false,
+      "FocusStrings": null,
+      "SkipStrings": null,
+      "FocusFiles": null,
+      "SkipFiles": null,
+      "LabelFilter": "",
+      "FailOnPending": false,
+      "FailFast": false,
+      "FlakeAttempts": 0,
+      "DryRun": false,
+      "PollProgressAfter": 0,
+      "PollProgressInterval": 0,
+      "Timeout": 3597576024500,
+      "EmitSpecProgress": false,
+      "OutputInterceptorMode": "",
+      "SourceRoots": null,
+      "GracePeriod": 30000000000,
+      "ParallelProcess": 1,
+      "ParallelTotal": 1,
+      "ParallelHost": ""
+    },
+    "SpecReports": [
+      {
+        "ContainerHierarchyTexts": [
+          "Optional",
+          "Check null values when marshaling JSON format"
+        ],
+        "ContainerHierarchyLocations": [
+          {
+            "FileName": "D:/projects/mine/optional/src/optional_test.go",
+            "LineNumber": 11
+          },
+          {
+            "FileName": "D:/projects/mine/optional/src/optional_test.go",
+            "LineNumber": 16
+          }
+        ],
+        "ContainerHierarchyLabels": [
+          [],
+          []
+        ],
+        "LeafNodeType": "It",
+        "LeafNodeLocation": {
+          "FileName": "D:/projects/mine/optional/src/optional_test.go",
+          "LineNumber": 20
+        },
+        "LeafNodeLabels": [],
+        "LeafNodeText": "Text must be null",
+        "State": "passed",
+        "StartTime": "2023-02-11T01:25:12.2592005Z",
+        "EndTime": "2023-02-11T01:25:12.2602871Z",
+        "RunTime": 1086600,
+        "ParallelProcess": 1,
+        "NumAttempts": 1,
+        "MaxFlakeAttempts": 0,
+        "MaxMustPassRepeatedly": 0,
+        "SpecEvents": [
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "D:/projects/mine/optional/src/optional_test.go",
+              "LineNumber": 17
+            },
+            "TimelineLocation": {
+              "Order": 1,
+              "Time": "2023-02-11T01:25:12.2592005Z"
+            },
+            "Message": "Check null values when marshaling JSON format",
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "D:/projects/mine/optional/src/optional_test.go",
+              "LineNumber": 17
+            },
+            "TimelineLocation": {
+              "Order": 3,
+              "Time": "2023-02-11T01:25:12.2597432Z"
+            },
+            "Message": "Check null values when marshaling JSON format",
+            "Duration": 542700,
+            "NodeType": "BeforeEach"
+          },
+          {
+            "SpecEventType": "Node",
+            "CodeLocation": {
+              "FileName": "D:/projects/mine/optional/src/optional_test.go",
+              "LineNumber": 20
+            },
+            "TimelineLocation": {
+              "Order": 4,
+              "Time": "2023-02-11T01:25:12.2597432Z"
+            },
+            "Message": "Text must be null",
+            "NodeType": "It"
+          },
+          {
+            "SpecEventType": "Node (End)",
+            "CodeLocation": {
+              "FileName": "D:/projects/mine/optional/src/optional_test.go",
+              "LineNumber": 20
+            },
+            "TimelineLocation": {
+              "Order": 6,
+              "Time": "2023-02-11T01:25:12.2602871Z"
+            },
+            "Message": "Text must be null",
+            "Duration": 543900,
+            "NodeType": "It"
+          }
+        ]
+      }
+    ]
+  }
+]
